@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4259607584621536186}
   - component: {fileID: 4259607584621536187}
   - component: {fileID: 4259607584621536184}
-  - component: {fileID: 4295551429992908584}
+  - component: {fileID: 8037701468573393897}
   - component: {fileID: 4259607584621536185}
   m_Layer: 0
   m_Name: Someone passing by
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voice: female01
---- !u!114 &4295551429992908584
+--- !u!114 &8037701468573393897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,9 +119,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4259607584621536182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bf9765f145187049bbef59c004a1428, type: 3}
+  m_Script: {fileID: 11500000, guid: 9943a706b74f80b42a5ff0195bb176d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toControl: {fileID: 0}
 --- !u!114 &4259607584621536185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueName: politeGreeting
-  controller: {fileID: 4295551429992908584}
+  controller: {fileID: 8037701468573393897}
   lines:
   - speaker: {fileID: 4259607584621536184}
     text: Hello!

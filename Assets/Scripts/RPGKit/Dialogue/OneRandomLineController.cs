@@ -7,7 +7,7 @@ namespace RPGKit.Dialogue {
 
         public override int Continue(int currentLineIndex, Prompt answeredPrompt) {
             if(currentLineIndex != Start) return End;
-            return (int)Mathf.Floor(Random.Range(0, toControl.lines.Count));
+            return (int)Mathf.Floor(Random.Range(0, toControl.lines.Length));
         }
     }
 }

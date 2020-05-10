@@ -5,12 +5,16 @@
     [AddComponentMenu("RPGKit/Dialogue/Dialogue Prompt")]
     public class Prompt : MonoBehaviour
     {
-        public List<PromptOption> options;
+        public PromptOption[] options;
         public int response = -1;
 
-        public Prompt(List<PromptOption> options)
+        public Prompt(PromptOption[] options)
         {
             this.options = options;
+        }
+
+        public void Reset() {
+            response = Unanswered;
         }
 
         public static readonly int Unanswered = -1;

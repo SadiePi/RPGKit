@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8808083186699319584}
   - component: {fileID: 3269200212736013655}
   - component: {fileID: 6712446615715135647}
-  - component: {fileID: 651591334745992566}
+  - component: {fileID: 8452490742227368312}
   - component: {fileID: 6826608852234977880}
   m_Layer: 0
   m_Name: No one in particular
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voice: male02
---- !u!114 &651591334745992566
+--- !u!114 &8452490742227368312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,10 +119,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2182356473067629899}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9943a706b74f80b42a5ff0195bb176d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bf9765f145187049bbef59c004a1428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toControl: {fileID: 6826608852234977880}
 --- !u!114 &6826608852234977880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueName: hello
-  controller: {fileID: 651591334745992566}
+  controller: {fileID: 8452490742227368312}
   lines:
   - speaker: {fileID: 6712446615715135647}
     text: Hello
